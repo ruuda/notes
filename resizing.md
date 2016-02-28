@@ -20,6 +20,7 @@ A few available filters:
  * Triangle: for bilinear interpolation.
  * Cubic: approximates a Gaussian filter with a cubic polynomial.
  * Lanczos, Lanczos2: produce good results in general.
+ * Cosine: a single cosine lobe, good for sharp downsampling.
 
 The `-distort` option uses an elliptical weighted averaging function that
 samples both dimensions at once, and it does not clamp intermediate values.
