@@ -26,3 +26,10 @@ The `-distort` option uses an elliptical weighted averaging function that
 samples both dimensions at once, and it does not clamp intermediate values.
 The `-resize` option resizes images in two passes (horizontal and vertical),
 and it does clamp intermediate values.
+
+To crop an image:
+
+    $ convert src.png -crop 32x32+10+10 out.png
+
+This will cut out a 32x32 rectangle with the top-left corner located
+at (10, 10).
