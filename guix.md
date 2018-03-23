@@ -7,7 +7,7 @@ If Guix fails with the following message on an Ubuntu host in a container:
 
 Resolve as follows
 
-    apt install nscd
+    apt install nsc
     /etc/init.d/nscd start
 
 After this Guix should work.
