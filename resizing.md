@@ -30,6 +30,8 @@ and it does clamp intermediate values.
 To crop an image:
 
     $ convert src.png -crop 32x32+10+10 out.png
+    $ jpegtran -crop 32x32+10+10 > out.jpg
 
 This will cut out a 32x32 rectangle with the top-left corner located
-at (10, 10).
+at (10, 10). Unlike `convert`, `jpegtran` is lossless, but it might return a
+slightly different size than requested.
