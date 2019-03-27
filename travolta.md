@@ -1,7 +1,7 @@
 Travolta Meme
 =============
 
-Suppose you had an animated gif of John Travolta with backroung color #fcfefc.
+Suppose you had an animated gif of John Travolta with backround color #fcfefc.
 Overlay it on top of a different image as follows:
 
     $ convert background.png
