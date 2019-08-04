@@ -1,8 +1,11 @@
 PDF to PNG
 ==========
 
-To render a PDF to PNG at a high resolution:
+To render a PDF to PNG:
 
-    convert -density 500 in.pdf out.png
+    gs -sDEVICE=png16m -sOutputFile=out.png in.pdf
 
-Here `-density` sets the target DPI.
+Flags:
+
+ * `-h`: List available devices.
+ * `-r`: Set resolution in pixels per inch.
