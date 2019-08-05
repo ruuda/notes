@@ -20,6 +20,7 @@ Escape sequences:
    * `39`: Default
    * Any of the above followed by `;1` to make it bright.
  * Background color: foreground color + 10.
+ * Clear line: `2K`, without closing `m`.
 
 Examples:
 
