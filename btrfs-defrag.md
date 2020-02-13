@@ -1,6 +1,9 @@
 Btrfs deframentation
 ====================
 
+This note is superseded by https://github.com/ruuda/dotfiles/blob/master/btrfs-defrag.py.
+The code below can defrag files twice due to -r.
+
 Defragmentation creates new extents, so it destroys sharing through reflinks.
 To preserve sharing, only defragment files where none of the extents are shared.
 
