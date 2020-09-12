@@ -4,7 +4,7 @@ Resizing
 To resize an image in a linear color space:
 
     $ convert src.png
-        -colorspace LAB
+        -colorspace RGB
         -filter Lanczos2
         -distort Resize 32x32!
         -colorspace sRGB out.png
