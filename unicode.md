@@ -7,3 +7,4 @@ just copy-paste from a standard document:
     … \ldots
     → \rightarrow
     ⇒ \Rightarrow
+    ≈ \approx
