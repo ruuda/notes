@@ -8,3 +8,4 @@ just copy-paste from a standard document:
     → \rightarrow
     ⇒ \Rightarrow
     ≈ \approx
+    ∞ \infty
