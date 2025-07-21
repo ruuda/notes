@@ -9,3 +9,4 @@ just copy-paste from a standard document:
     ⇒ \Rightarrow
     ≈ \approx
     ∞ \infty
+    ™ U+2122
